@@ -1,0 +1,204 @@
+/* Font Awesome 6 Brands */
+@font-face {
+    font-display: block;
+    font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://jurajmajerik.com/static/fa-brands-400-3ac6859b28be946745f95de1136a7251.woff2) format('woff2'),
+         url(https://jurajmajerik.com/static/fa-brands-400-450a5c898f0b184b968b971eaf7c5fa4.ttf) format('truetype');
+  }
+  
+  /* Reset some default styles */
+  body, h1, p, img {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    line-height: inherit;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    background-color: #fff;
+  }
+  
+  /* Container width utility classes */
+  .w-full {
+    width: 100%;
+  }
+  
+  .px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  /* Responsive width classes */
+  @media (min-width: 640px) {
+    .sm\:w-1\/3 {
+      width: 33.333333%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .md\:w-1\/4 {
+      width: 25%;
+    }
+  }
+  
+  /* Sticky positioning */
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Padding utility class */
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  /* Text center utility class */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Margin top utility class */
+  .mt-6 {
+    margin-top: 1.5rem;
+  }
+  
+  /* Height and width utility classes */
+  .h-32 {
+    height: 8rem;
+  }
+  
+  .w-32 {
+    width: 8rem;
+  }
+  
+  /* Rounded full utility class */
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  /* Background color utility class */
+  .bg-zinc-100 {
+    background-color: rgb(244 244 245 / 1);
+  }
+  
+  /* Object cover utility class */
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  /* Responsive image wrapper */
+  .gatsby-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Text size utility class */
+  .text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  /* Text color utility class */
+  .text-slate-800 {
+    color: rgb(30 41 59 / 1);
+  }
+  
+  /* Anchor tag styles */
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+  /* Margin utility class */
+  .space-y-7 > :not([hidden]) ~ :not([hidden]) {
+    margin-bottom: calc(1.75rem * 0);
+    margin-top: calc(1.75rem * (1 - 0));
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+  }
+  
+  /* Text size utility class */
+  .text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  /* Image styles */
+  img {
+    display: block;
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  /* Responsive image styles */
+  .gatsby-image-wrapper img {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    max-width: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* Social media icon color utility class */
+  .text-blue-500 {
+    color: rgb(59 130 246 / 1);
+  }
+  
+  /* Hover effect for social media icons */
+  .hover\:text-blue-600:hover {
+    color: rgb(37 99 235 / 1);
+  }
+  
+  /* Font Awesome Brands class */
+  .fa-brands {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+  }
+  
+  /* Font Awesome Brands font family */
+  .fa-brands {
+    font-family: 'Font Awesome 6 Brands';
+  }
+  
+  /* Font Awesome Brands font weight */
+  .fa-brands {
+    font-weight: 400;
+  }
+  
+  /* Text size utility class */
+  .text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  
+  /* Social media icon content */
+  .fa-twitter:before {
+    content: '\f099';
+  }
+  
+  .fa-github:before {
+    content: '\f09b';
+  }
+  
+  .fa-linkedin:before {
+    content: '\f08c';
+  }
+  
